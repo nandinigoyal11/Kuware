@@ -10,6 +10,10 @@ a{
     cursor: pointer;
 }
 
+h2{
+    color: #555!important;
+}
+
 .custom-background{
     background-color: rgb(238, 238, 238) !important;
     /* background-color: #EEEEEE; */
@@ -36,7 +40,7 @@ a{
 }
 
 .main-1{
-    height: 550px;
+    height: 600px;
     position: relative;
 }
 
@@ -44,7 +48,7 @@ a{
     color: white;
     font-family: 'Kalam', cursive;
     background-color: rgb(85,85,85);
-    border-radius: 20px;
+    border-radius: 10px;
     margin-left: 0%;
     margin-top: 50px;
     text-align: center;
@@ -153,8 +157,8 @@ a{
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    min-width: 230px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
     z-index: 1;
   }
   
@@ -165,6 +169,273 @@ a{
     display: block;
   }
   
-  .dropdown-content a:hover {background-color: #ddd;}
+  /* .dropdown-content a:hover {background-color: #ddd;} */
   
   .dropdown:hover .dropdown-content {display: block;}
+
+  .mobile-show{
+      display:none !important;
+  }
+
+  @media only screen and (min-width: 280px) and (max-width: 600px){
+   .desktop-show{
+      display:none !important;
+  } 
+  .navbar-logo{
+      width:160px !important;
+  }
+  .mobile-show{
+    display:block !important;
+    text-align: center;
+    padding-left: 0px !important;
+}
+.search{
+    text-align: end !important;
+}
+
+.unhappy{
+    padding-left: 50px !important;
+}
+.seeking-growth-div{
+    width: 90% !important;
+    
+}
+.main-1{
+    height:1200px !important;
+}
+.arrow-img{
+    transform: rotate(90deg);
+}
+h2 {
+        font-size: 30px !important;
+        padding-top: 0px !important;
+        line-height: 40px !important;
+        text-align: center !important; 
+        
+    }
+
+    .header-headline{
+        text-align: center !important;
+        font-size: 19px !important;
+         margin-top: 6px !important;
+        
+        margin-bottom: 5px !important; 
+}
+    
+h2.how{
+        text-align: left !important;
+    }
+h3{
+        font-size: 28px !important;
+        font-weight: 400;
+    }
+    div.tele{
+        padding-right: 140px !important;
+        font-size: 16px !important;
+       
+    }
+
+    .hide-phone{
+        display: none !important;
+    }
+    
+    .main-2-pic{
+        margin-bottom: 6%;
+        height: 400px !important;
+        padding-top: 250px !important;
+        padding-left: 450px !important;
+        padding-right: 0px !important;
+        width: 700px !important;
+       
+      }
+    img.board{
+        width:320px !important;
+        height: 900px !important;
+        
+    } 
+    .product-table{
+        font-size: 20px !important;
+    }
+
+    .dash{
+        font-size: 22px;
+        
+        margin-bottom: 10px !important;
+    }
+    .timeline{
+        font-size: 19px !important;
+  }
+  .austin{
+      font-size: 14px !important;
+      text-align: left;
+  }
+  .footer-cs{
+    text-align: left;
+    font-weight: 300 !important;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 766px){
+    .desktop-show{
+        display:none !important;
+    } 
+    .navbar-logo{
+        width:160px !important;
+    }
+    .mobile-show{
+      display:block !important;
+      text-align: center;
+      padding-left: 0px !important;
+  }
+  .seeking-growth-div{
+    width: 90% !important;
+    
+}
+
+.unhappy{
+    padding-left: 50px !important;
+}
+.main-1{
+    height:1600px !important;
+}
+h2 {
+    font-size: 35px !important;
+    padding-top: 0px !important;
+    line-height: 40px !important;
+    text-align: center !important; 
+    
+}
+
+.header-headline{
+    text-align: center !important;
+    font-size: 19px !important;
+     margin-top: 6px !important;
+    margin-bottom: 5px !important; 
+}
+
+h2.how{
+    text-align: left !important;
+}
+h3{
+    font-size: 37px !important;
+    font-weight: 400;
+}
+div.tele{
+    padding-right: 140px !important;
+    font-size: 16px !important;
+   
+}
+
+.hide-phone{
+    display: none !important;
+}
+
+.main-2-pic{
+    
+    height: 400px !important;
+    padding-top: 120px !important;
+    padding-left: 700px !important;
+    padding-right: 0px !important;
+    width: 1000px !important;
+   
+  }
+img.board{
+    width:580px !important;
+    height: 550px !important;
+    
+} 
+.product-table{
+    font-size: 20px !important;
+    width: max-content;
+    padding-right: 0px !important;
+   
+}
+
+.dash{
+    font-size: 22px;
+    
+    margin-bottom: 10px !important;
+}
+.timeline{
+    font-size: 19px !important;
+}
+.austin{
+  font-size: 14px !important;
+  text-align: left;
+}
+.footer-cs{
+text-align: left;
+font-weight: 300 !important;
+}
+}
+
+
+  @media only screen and (min-width: 767px) and (max-width: 992px){
+    .navbar-logo{
+        text-align: center !important;
+        padding-left: 240px !important;
+        
+      }
+      .mobile-show{
+        display:none !important;
+    }
+    h2 {
+        line-height: 45px!important;
+        font-size: 40px !important;
+        text-align: center !important;
+        padding-bottom: 20px !important;
+
+  }
+  h2.how{
+    text-align: left !important;
+  }
+  h3{
+    font-size: 27px!important;
+  }
+  div.tele{
+    text-align: center !important;
+    padding-right: 80px !important;
+    font-size: 17px !important;
+}
+
+.header-headline{
+    text-align: center !important;
+    padding-left: 130px !important;
+}
+  div.arrow-in{
+      width: 2px !important;
+      top: 280px !important;
+     left:300px !important;
+  }
+  .seeking-col-6-in{
+    top: 210px !important;
+    width: 280px;
+    left: -12px !important;
+}
+    .seeking-growth-div{
+        width:270px !important;
+    }
+  
+  td.dash{
+    font-size: 31px !important;
+  }
+
+  .timeline{
+      font-size: 19px !important;
+  }
+  .main-2-pic{
+    margin-bottom: 6%;
+    height: 400px !important;
+    padding-top: 100px !important;
+    padding-left: 300px !important;
+    padding-right: 0px !important;
+    /* margin-top: -23%; */
+    width: 700px !important;
+   
+  }
+  div.black-seal{
+      padding-left: 0px;
+      left: -5px !important;
+  }
+ 
+}
+
